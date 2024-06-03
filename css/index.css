@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Recipekorea';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  font-family: 'Recipekorea', serif;
+  background-color: #ededed; }
+  body ul, body li {
+    list-style: none; }
+
+.container .row .col-md-12 h1 {
+  font-weight: 800;
+  letter-spacing: 2px; }
+.container .row .col-md-12 canvas {
+  width: 600px;
+  height: 600px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.1); }
+.container .row .col-md-12.controls .controls__btns {
+  justify-content: center; }
+  .container .row .col-md-12.controls .controls__btns button {
+    padding-top: 0.6rem;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.1); }
+    .container .row .col-md-12.controls .controls__btns button:active {
+      transform: scale(0.98); }
+.container .row .col-md-12.controls .controls__colors {
+  justify-content: center; }
+  .container .row .col-md-12.controls .controls__colors .controls__color {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.1);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
+
+/*# sourceMappingURL=index.css.map */
